@@ -1,3 +1,5 @@
+// time complexity: O(n)
+// space complexity: O(1)
 import java.util.*;
 import java.io.*;
 class LinearSearch
@@ -26,7 +28,7 @@ class LinearSearch
         }
         if(idx==-1)
         {
-            System.out.println("Searching element is not found in the present array is "+idx);
+            System.out.println("Searching element is not found in the present array is ");
         }
         else 
         {
